@@ -1,0 +1,67 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@400;500&family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+ */ 
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@400;500&family=Lora:wght@600&family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@400;500&family=Lora:ital,wght@0,600;1,500&family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #b4e4bc; 
+    /*background-image: url('../imagenes/GatoTec.webp');*/
+    /*background: no-repeat;*/
+    text-align: justify; /*Justificar un texto*/
+    color: #060606; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+    margin-bottom: 40px;
+}
+.col-3{
+    margin-top: 30px;
+}
+
+h3{ 
+    padding-top: 10px;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    /*Poner le que solo en el titulo este este tipo de fuente*/
+    font-family: 'Black Ops One', cursive;
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+.columna img{
+    width: 300px;
+    height: 250px;
+}
+
+nav{
+    background-color: #83c9de;
+}
+
+.curso_columna{
+    margin-bottom: 10px;
+}
+
+.carousel-item{
+    padding-left: 120px;
+}
+
+.banner{
+    margin-bottom: 10px;
+}
+
+
+/*.info_curso{
+    background-color: rgba(173, 198, 253, 0.5);
+    position: absolute;
+    top: 0;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}*/

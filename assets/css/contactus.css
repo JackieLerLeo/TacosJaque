@@ -1,0 +1,166 @@
+#form {
+    padding: 71px 0;
+}
+
+#form h1 {
+    text-align: center;
+    color: red;
+}
+
+.contact-text h6 {
+    color: #595959;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+#usr,
+#comment {
+    background: #f4f4f4;
+    margin-top: 0;
+    border: solid 1px #d5d5d5;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-ara .col-md-6 {
+    padding: 0 0;
+}
+
+.name-text {
+    margin-top: 5px;
+    display: block;
+    overflow: hidden;
+    margin-top: 5px;
+    width: 96%;
+}
+
+.form-ara .col-lg-6 {
+    padding: 0;
+}
+
+.form-ara input {
+    padding: 10px 15px;
+    font-size: 14px;
+    min-height: 53px;
+}
+
+.map-area iframe {
+    width: 100%;
+}
+
+.captha {
+    width: 60%;
+    background: #F4F4F4;
+    border: solid 1px #d5d5d5;
+    padding: 15px 22px;
+}
+
+.form-check .form-check-label {
+    display: inline-flex;
+}
+
+.form-check p {
+    margin-top: 11px;
+    padding-right: 29px;
+}
+
+#captha-image {
+    margin-left: 10px;
+}
+
+.buton-form a {
+    background: #01478c;
+    position: absolute;
+    right: 0;
+    padding: 14px 51px;
+    bottom: 47px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: solid 1px transparent;
+    transition: all ease-in 0.5s;
+}
+
+.buton-form a:hover {
+    background: #F4F4F4;
+    color: #01478c;
+    border: solid 1px #01478c;
+    transition: all ease-out 0.5s;
+}
+
+.form-check-label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form-check-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    border: solid 1px #d5a440;
+}
+
+.form-check-label:hover input~.checkmark {
+    background-color: #01478C;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.form-check-label input:checked~.checkmark:after {
+    display: block;
+}
+
+.form-check-label .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.contact-text.text-center h6 {
+    margin-bottom: 60px;
+}
+
+.capcta {
+    width: 25%;
+    min-height: 63px;
+    object-fit: cover;
+}
+
+.map-area iframe {
+    border: solid 2px whitesmoke !important;
+    padding: 4px;
+    background: #fff;
+    box-shadow: 1px 4px 2px 0px rgba(1, 1, 1, 0.22);
+}
