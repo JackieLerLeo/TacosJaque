@@ -1,0 +1,60 @@
+.products table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .products table th,
+  .products table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .products table th {
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .products table td img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .products table select {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .products table input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .products table button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .products table th:first-child {
+    border-top-left-radius: 5px;
+  }
+  
+  .products table th:last-child {
+    border-top-right-radius: 5px;
+  }
+  
+  .products table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .products table th .fa {
+    font-size: 20px;
+    color: #000;
+  }
+  

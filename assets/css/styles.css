@@ -7,9 +7,12 @@
 
 body{
     font-family: 'Montserrat', sans-serif; 
-    background-color: #b4e4bc; 
-    /*background-image: url('../imagenes/GatoTec.webp');*/
-    /*background: no-repeat;*/
+    /*background-color: #000000;
+    background-image: url('../imagenes/FONDO.jpg');
+    /*background-repeat: no-repeat;
+    background-size: 100%;*/
+    background-image: url('../imagenes/Restaurante.jpeg');
+    background-size: 100%;
     text-align: justify; /*Justificar un texto*/
     color: #060606; 
     font-family: 'Roboto', sans-serif;
@@ -38,7 +41,7 @@ h3{
 }
 
 nav{
-    background-color: #83c9de;
+    background-color: #FFB84C;
 }
 
 .curso_columna{
@@ -52,6 +55,7 @@ nav{
 .banner{
     margin-bottom: 10px;
 }
+
 
 
 /*.info_curso{

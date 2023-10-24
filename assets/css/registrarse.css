@@ -1,5 +1,5 @@
 body{
-    background-color: #995192;
+    background-color: #dad6d9;
   
 }
 
@@ -23,7 +23,7 @@ body{
     content: "";
     position: absolute;
     width: 100%;
-    border-bottom: 1px solid #b77ea9;
+    border-bottom: 1px solid #aaaaaa;
     top: 55%;
     left: 0;
     z-index: 1;
